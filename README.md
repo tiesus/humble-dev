@@ -1,6 +1,22 @@
-# VSCode ROS2 Workspace Template
+### Important: 
 
-This template will get you set up using ROS2 with VSCode as your IDE.
+To use this file to develop with ros1 on your own setup change: <br>
+"--volume=/home/ties/docker_data:/home/ros" according to your needs
+
+## Use git: 
+You should use an Personal access Token:
+Create on with this https://docs.github.com/en/enterprise-server@3.6/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+The scope should be read_repos and write repos
+
+<br> 
+Login to github: export GITHUB_TOKEN=<your_token>
+Clone<br>
+git clone https://${GITHUB_TOKEN}:@github.com/silolytics/livox_ros_driver.git
+
+# VSCode ROS1 Workspace Template
+
+This template will get you set up using ROS1 with VSCode as your IDE.
+
 
 See [how I develop with vscode and ros2](https://www.allisonthackston.com/articles/vscode_docker_ros2.html) for a more in-depth look on how to use this workspace.
 
@@ -166,3 +182,4 @@ python3 .devcontainer/repos_to_submodules.py
 ```
 
 or run the task titled `add submodules from .repos`
+# ros_noetic_vs_code_dev
